@@ -1,0 +1,107 @@
+{
+    "depot": "Depot",
+    "vehicle_capacity": 15,
+    "parcels": [
+        {
+            "id": "P1",
+            "destination": "A",
+            "weight": 4,
+            "priority": 9,
+            "deadline": 10
+        },
+        {
+            "id": "P2",
+            "destination": "B",
+            "weight": 5,
+            "priority": 8,
+            "deadline": 12
+        },
+        {
+            "id": "P3",
+            "destination": "C",
+            "weight": 3,
+            "priority": 7,
+            "deadline": 11
+        },
+        {
+            "id": "P4",
+            "destination": "D",
+            "weight": 6,
+            "priority": 10,
+            "deadline": 9
+        },
+        {
+            "id": "P5",
+            "destination": "E",
+            "weight": 2,
+            "priority": 5,
+            "deadline": 14
+        },
+        {
+            "id": "P6",
+            "destination": "B",
+            "weight": 4,
+            "priority": 6,
+            "deadline": 13
+        },
+        {
+            "id": "P7",
+            "destination": "C",
+            "weight": 3,
+            "priority": 8,
+            "deadline": 10
+        }
+    ],
+    "roads": [
+        [
+            "Depot",
+            "A",
+            4
+        ],
+        [
+            "Depot",
+            "B",
+            6
+        ],
+        [
+            "Depot",
+            "C",
+            7
+        ],
+        [
+            "A",
+            "B",
+            2
+        ],
+        [
+            "A",
+            "D",
+            5
+        ],
+        [
+            "B",
+            "C",
+            3
+        ],
+        [
+            "B",
+            "D",
+            4
+        ],
+        [
+            "B",
+            "E",
+            7
+        ],
+        [
+            "C",
+            "E",
+            2
+        ],
+        [
+            "D",
+            "E",
+            3
+        ]
+    ]
+}
